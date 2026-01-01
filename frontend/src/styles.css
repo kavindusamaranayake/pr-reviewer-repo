@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.role {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.review-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.review-item:hover {
+  background: #f9f9f9;
+}
+
+.branch {
+  color: #666;
+  font-size: 14px;
+}
+
+.status {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.status.pending {
+  background: orange;
+  color: white;
+}
+
+.status.approved {
+  background: green;
+  color: white;
+}
+
+.status.rejected {
+  background: red;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.approve {
+  background: green;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.reject {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+.back {
+  margin-bottom: 10px;
+}
